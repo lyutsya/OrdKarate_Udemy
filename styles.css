@@ -1,0 +1,130 @@
+@charset "UTF-8";
+ body {
+	margin: 0;
+	background-color: #ececec ;
+}
+	
+#Master {
+	width: 960px;
+	height: 1853px;
+	background-color: white;
+	margin-right: auto;
+	margin-left: auto;
+	border-right: 1px solid #CCC;
+	border-left: 1px solid #CCC;
+}
+
+#Header {
+	width:960px;
+	height:140px;
+}
+
+#Logo { 
+    position:absolute;
+    float:left;
+}
+
+#MainMenu { width: 960px; }
+
+.MenuItem {
+	float: left;
+	top: auto;
+}
+
+#Slideshow {
+	width: 940px;
+	height: 325px;
+	margin-left: 10px;
+	margin-top: 10px;
+	float: left;
+}
+
+#CenterBox1 {
+	width: 300px;
+	height: 380px;
+	float: left;
+	margin-left: 10px;
+	background-image: url(CenterBoxBG.jpg);
+	margin-top: 30px;
+}
+
+#CenterBox2 {
+	width: 310px;
+	height: 380px;
+	float: left;
+	margin-left: 12px;
+	background-image: url(CenterBoxBG.jpg);
+	margin-top: 30px;
+}
+
+#CenterBox3 {
+	width: 300px;
+	height: 380px;
+	float: left;
+	margin-left: 12px;
+	background-image: url(CenterBoxBG.jpg);
+	margin-top: 30px;
+}
+
+.CenterHeader {
+	position:absolute; margin-top: -25px; margin-left: 10px;
+}
+
+.CenterText {
+	width: 280px; height: 200px; margin-left: 10px; margin-top: 5px; color: #686868; line-height: 23px;
+}
+
+#CurrentEvents {
+	width: 465px;
+	height: 398px;
+	float: left;
+	margin-left: 10px;
+	margin-top: 10px;
+	border: 1px solid #ccc;
+}
+
+#Calendar {
+	width: 465px;
+	height: 400px;
+	float: left;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+
+
+#PhotoGallery {
+	width: 305px;
+	height: 380px;
+	float: left;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+
+.PhotoGalleryThumb {
+	float:left;
+	margin-left: 5px;
+	margin-top: 5px;
+}
+
+#FacbookFeed {
+	width: 305px;
+	height: 380px;
+	float: left;
+	margin-left: 12px;
+	margin-top: 10px;
+}
+
+#TwitterFeed {
+	width: 305px;
+	height: 380px;
+	float: left;
+	margin-left: 12px;
+	margin-top: 10px;
+}
+
+#Footer {
+	width:960px;
+	height:115px;
+	margin-top: 10px;
+	float: left;
+}
